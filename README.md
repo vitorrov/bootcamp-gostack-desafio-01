@@ -14,14 +14,14 @@ Nesse desafio, foi desenvolvida uma API para cadastro de projetos.
 
 As rotas criadas foram:
 
-- `POST /projects`
+- `POST /projects` para cadastrar projetos.
 
-- `GET /projects`
+- `GET /projects` para listar todos projetos.
 
-- `PUT /projects/:id`
+- `PUT /projects/:id` para alterar o título do projeto através do seu ID.
 
-- `DELETE /projects/:id`
+- `DELETE /projects/:id` para deletar o projeto através do seu ID.
 
-- `POST /projects/:id/tasks`
+- `POST /projects/:id/tasks` para adicionar uma tarefa em um projeto específico escolhido através do seu ID.
 
 Também foi feito um middleware para checar se o projeto existia antes de tentar alterá-lo ou deletá-lo e outro para contabilizar as requisições feitas em todas as rotas.

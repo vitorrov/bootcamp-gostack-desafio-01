@@ -24,4 +24,4 @@ As rotas criadas foram:
 
 - `POST /projects/:id/tasks`
 
-Também foi feito um middlewares para checar se o projeto existia antes de tentar alterá-lo ou deletá-lo e outro para contabilizar as requisições feitas em todas as rotas.
+Também foi feito um middleware para checar se o projeto existia antes de tentar alterá-lo ou deletá-lo e outro para contabilizar as requisições feitas em todas as rotas.
